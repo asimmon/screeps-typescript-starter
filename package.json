@@ -1,0 +1,23 @@
+{
+  "name": "screeps-typescript-starter",
+  "version": "0.0.1",
+  "description": "Screeps TypeScript starter",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "push-official": "rollup -c --environment DEST:official",
+    "push-pserver": "rollup -c --environment DEST:pserver"
+  },
+  "devDependencies": {
+    "@types/lodash": "3.10.1",
+    "@types/screeps": "2.5.4",
+    "rollup": "0.62.0",
+    "rollup-plugin-commonjs": "8.4.1",
+    "rollup-plugin-node-resolve": "3.3.0",
+    "rollup-plugin-progress": "0.4.0",
+    "rollup-plugin-screeps": "0.1.2",
+    "rollup-plugin-typescript2": "0.16.1",
+    "tslint": "5.11.0",
+    "typescript": "2.9.2"
+  }
+}
